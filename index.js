@@ -4,6 +4,7 @@ var url=require('url');
 //创建http服务器
 http.createServer(function(req,res){
     //获得请求body
+    console.log(req.headers);
     var body='';
     req.on('data',function(chunk){
             body+=chunk;
@@ -36,4 +37,4 @@ http.createServer(function(req,res){
                 res.end('remote http.request error'+error)}).end(body);
 
     });
-}).listen(8088);
+}).listen(80);

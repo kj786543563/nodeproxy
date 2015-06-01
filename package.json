@@ -1,0 +1,17 @@
+{
+  "name": "NodeProxy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "http-proxy": "~1.11.1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "NodeProxy"
+  ],
+  "license": "MIT"
+}
